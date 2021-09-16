@@ -1,0 +1,27 @@
+{
+  "name": "factions-bot",
+  "version": "1.0.3",
+  "description": "Factions Bot Created by Bleezed#2895",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "run": "node index.js"
+  },
+  "keywords": [
+    "Minecraft",
+    "Factions",
+    "Bot"
+  ],
+  "author": "Bleezed#2895",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.4.1",
+    "ffmpeg-static": "^4.2.7",
+    "mathjs": "^7.5.1",
+    "mineflayer": "^2.32.0",
+    "mineflayer-tps": "^1.0.1",
+    "moment": "^2.29.1",
+    "ms": "^2.1.2"
+  }
+}

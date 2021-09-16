@@ -1,0 +1,32 @@
+{
+    "discordtoken": "YOUR BOTS DISCORD TOKEN",
+    "account": {
+        "email": "YOUR MC ACCOUNT EMAIL",
+        "password": "YOUR MC ACCOUNT PASSWORD"
+    },
+    "play": {
+        "version": "1.8.8",
+        "server": "THE MC SERVER IP",
+        "joincommand": "/factions",
+        "factionjoincommand": "/f join ",
+        "stafflist": []
+    },
+    "regex": {
+        "message": "^\\[(\\w+) -> \\w+\\] (.+)",
+        "factionchat": "^(?:\\*{1,3}|\\@|\\+{1,2})(\\w+): (.+)", 
+        "ftop": "^(\\d+\\. \\w+) Total: \\$([\\d.,]+) \\(.+ online", 
+        "baltop": "^(\\d+\\. .+), \\$([\\d.,]+)",
+        "balance": "^Balance: \\$(.+)",
+        "flist": "^(\\w+) \\((\\d+\\/\\d+)\\) Land \\/ Power \\/ Max Power.+",
+        "outpostcommand": "VanityMC » (.+) has held raiding outpost \\((.+)\\) for (.+)",
+        "outpostcapture": "VanityMC » (.+) has captured the Raiding Outpost",
+        "outpostreminder": "VanityMC » (.+) has held raiding outpost \\((.+)\\) for (.+)",
+        "bankdeposit": "\\$(\\d+(?:\\.\\d+)*) has been received from .+ (\\w+)\\.",
+        "bankwithdraw": "\\$([\\d+,.]+) has been sent to .+ (\\w+)\\.",
+        "bankusernameindex": 2,
+        "bankvalueindex": 1,
+        "hubjoined": "VanityMC » Connected to a hub.",
+        "ptop": "^(\\d+\\. \\w+) Total: \\$([\\d.,]+) \\d+\\/\\d+",
+        "mctop": "(\\d+\\. \\w+) - (\\d+)"
+    }
+}
